@@ -23,6 +23,8 @@ Check the `page.chatpage.tpl` template for the structure of the html.
 The chat-selector, presence, chat-messages and chat-form are all separate components which can be
 placed independently on a page.
 
+All messages are logged in the database. It is possible to scroll back and load older messages.
+
 Admin Chat
 ----------
 
