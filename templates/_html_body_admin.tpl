@@ -1,3 +1,5 @@
+{% if m.acl.user and m.acl.use.mod_admin %}
+
 {% with m.rsc.page_admin_chatpage.id as admin_id %}
 <div id="admin-chat">
     <button id="admin-chat-toggle" class="btn btn-success">
@@ -90,3 +92,5 @@ function chat_new_message(chat_id, msg) {
 {% endjavascript %}
 
 {% endwith %}
+
+{% endif %}
