@@ -31,7 +31,8 @@ Admin Chat
 In the admin the chat window will be on the right and opens automatically if a message is received.
 
 On an edit page there are two possible chats, the chat for the page and the chat for all admin users.
-When editing a page the page chat will be shown, but it will switch to the shared admin-users chat.
+When editing a page the page chat will be shown. It will switch to the shared admin-users chat if
+a message for that chat is received.
 
 This can also be done by selecting it from the select element.
 
