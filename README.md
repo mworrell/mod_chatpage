@@ -20,6 +20,9 @@ The name of the admin chat page is `page_admin_chatpage`.
 
 Check the `page.chatpage.tpl` template for the structure of the html.
 
+The chat-selector, presence, chat-messages and chat-form are all separate components which can be
+placed independently on a page.
+
 Admin Chat
 ----------
 
@@ -37,10 +40,17 @@ Installation
 ------------
 
 Install this module like all other modules in `user/modules`.
-Ensure that the module is enabled and the the access controls are set correctly.
+Ensure that the module is enabled and the access controls are set correctly.
 
 Every user wanting to chat must have *use* rights on *mod_chatpage*.
-Users having this right and also access to the admin will see the chat menu on the right.
+
+Admin users having *use.mod_chatpage* right will see the chat menu on the right.
+
+
+Dependencies
+------------
+
+This module uses MQTT topics for the communication, *mod_mqtt* must be enabled.
 
 
 Known problems
