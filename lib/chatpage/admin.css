@@ -9,7 +9,7 @@ body.chat #admin-chat {
 }
 
 #admin-chat {
-    z-index: 1100;
+    z-index: 1000;
     position: fixed;
     right: -290px;
     width: 290px;
