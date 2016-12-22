@@ -18,12 +18,17 @@ This module adds two special resources:
 
 The name of the admin chat page is `page_admin_chatpage`.
 
-Admin
------
+Check the `page.chatpage.tpl` template for the structure of the html.
+
+Admin Chat
+----------
 
 In the admin the chat window will be on the right and opens automatically if a message is received.
 
-On an edit page there are two possible chats, the *admin* chat for the page and the chat shared by all admin users.
+On an edit page there are two possible chats, the chat for the page and the chat for all admin users.
+When editing a page the page chat will be shown, but it will switch to the shared admin-users chat.
+
+This can also be done by selecting it from the select element.
 
 ![Admin Chat Example](https://github.com/mworrell/mod_chatpage/raw/master/doc/admin-chat.png)
 
