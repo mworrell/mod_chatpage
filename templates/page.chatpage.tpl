@@ -16,7 +16,7 @@
             <select class="form-control">
                 {% for _title,id in m.search[{all_bytitle cat=`chatpage`}] %}
                     {% if id.is_visible %}
-                        <option value="{{ id }}">{{ id.title }}</option>
+                        <option value="{{ id }}/default">{{ id.title }}</option>
                     {% endif %}
                 {% endfor %}
             </select>
