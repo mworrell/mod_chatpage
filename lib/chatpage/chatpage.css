@@ -22,7 +22,6 @@
 
 .chatpage-chat, .chatpage-form {
     margin: 0;
-    max-height: 600px;
     overflow-y: scroll;
 }
 
